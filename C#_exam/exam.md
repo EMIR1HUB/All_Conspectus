@@ -298,9 +298,9 @@ public partial class Form1 : Form
     {
         try
         {
-            string text1 = Convert.ToString(tb1.Text);
-            string text2 = Convert.ToString(tb2.Text);
-            string text3 = Convert.ToString(tb3.Text);
+            string text1 = tb1.Text;
+            string text2 = tb2.Text;
+            string text3 = tb3.Text;
 
             Desire d = new Desire(text1, text2, text3);
             Gold g = new Gold();     //рыбка
